@@ -13,6 +13,5 @@ class Pokemon
     @@all
   end
   
-  def
     
 end
