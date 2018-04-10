@@ -24,5 +24,7 @@ class Pokemon
     pokemon_data = db.execute("SELECT * FROM pokemon WHERE pokemon.id = ?", id).flatten
     Pokemon.new(id: pokemon_data[0], name: pokemon_data[1], type: pokemon_data[2], hp: pokemon_data[3], db: db)
   end
+  
+  def alter_hp()
     
 end
