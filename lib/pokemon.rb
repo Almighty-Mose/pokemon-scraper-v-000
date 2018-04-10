@@ -27,4 +27,5 @@ class Pokemon
   
   def alter_hp()
     
+  end
 end
